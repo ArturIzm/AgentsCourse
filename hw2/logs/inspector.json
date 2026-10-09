@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "c6e71d29-91a5-4d06-b84f-c8ecd70bcba2",
+    "timestamp": "2026-10-09T16:13:31.686Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "jsonrpc": "2.0",
+      "id": "server-discover-probe-1",
+      "method": "server/discover",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": "server-discover-probe-1",
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "cacheScope": "private",
+        "capabilities": {
+          "prompts": {
+            "listChanged": true
+          },
+          "resources": {
+            "listChanged": true,
+            "subscribe": true
+          },
+          "tools": {
+            "listChanged": true
+          }
+        },
+        "resultType": "complete",
+        "supportedVersions": [
+          "2026-07-28"
+        ],
+        "ttlMs": 0
+      }
+    },
+    "duration": 391
+  },
+  {
+    "id": "6881b8aa-52ef-46d6-b925-7bf74ed4b624",
+    "timestamp": "2026-10-09T16:13:32.094Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "jsonrpc": "2.0",
+      "id": "listen:0",
+      "method": "subscriptions/listen",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          }
+        },
+        "notifications": {
+          "toolsListChanged": true,
+          "resourcesListChanged": true,
+          "promptsListChanged": true
+        }
+      }
+    }
+  },
+  {
+    "id": "4cec6587-33b4-48b6-a988-0641b3f831a4",
+    "timestamp": "2026-10-09T16:13:32.140Z",
+    "direction": "notification",
+    "origin": "server",
+    "message": {
+      "jsonrpc": "2.0",
+      "method": "notifications/subscriptions/acknowledged",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/subscriptionId": "listen:0"
+        },
+        "notifications": {
+          "toolsListChanged": true,
+          "promptsListChanged": true,
+          "resourcesListChanged": true
+        }
+      }
+    }
+  },
+  {
+    "id": "a25dfeae-0f0f-43e7-80cd-120a9bb4edea",
+    "timestamp": "2026-10-09T16:13:32.168Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "resources/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": 0
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 0
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "cacheScope": "private",
+        "resources": [],
+        "resultType": "complete",
+        "ttlMs": 0
+      }
+    },
+    "duration": 19
+  },
+  {
+    "id": "cc045e6d-2ccc-4d25-a49e-1779f33fb623",
+    "timestamp": "2026-10-09T16:13:32.168Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": 1
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 1
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "cacheScope": "private",
+        "resultType": "complete",
+        "tools": [
+          {
+            "description": "Получить занятие по ID. Не используйте для поиска: для этого есть schedule_search.",
+            "inputSchema": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "lesson_id": {
+                  "description": "ID занятия, полученный через schedule_search.",
+                  "title": "Lesson Id",
+                  "type": "string"
+                },
+                "response_format": {
+                  "default": "concise",
+                  "description": "concise — основные поля; detailed — полная карточка.",
+                  "enum": [
+                    "concise",
+                    "detailed"
+                  ],
+                  "title": "Response Format",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "lesson_id"
+              ],
+              "title": "schedule_getArguments"
+            },
+            "name": "schedule_get"
+          },
+          {
+            "description": "Найти занятия на дату. Не используйте для получения карточки по известному ID.",
+            "inputSchema": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "date": {
+                  "description": "Дата занятий в формате YYYY-MM-DD, например 2026-10-10.",
+                  "title": "Date",
+                  "type": "string"
+                },
+                "response_format": {
+                  "default": "concise",
+                  "description": "concise — основные поля; detailed — полные карточки.",
+                  "enum": [
+                    "concise",
+                    "detailed"
+                  ],
+                  "title": "Response Format",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "date"
+              ],
+              "title": "schedule_searchArguments"
+            },
+            "name": "schedule_search"
+          },
+          {
+            "description": "Найти занятия преподавателя. Не используйте для поиска по аудитории или ID.",
+            "inputSchema": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "teacher": {
+                  "description": "Имя преподавателя как в расписании, например А. Иванова.",
+                  "title": "Teacher",
+                  "type": "string"
+                },
+                "response_format": {
+                  "default": "concise",
+                  "description": "concise — основные поля; detailed — полные карточки.",
+                  "enum": [
+                    "concise",
+                    "detailed"
+                  ],
+                  "title": "Response Format",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "teacher"
+              ],
+              "title": "schedule_teacherArguments"
+            },
+            "name": "schedule_teacher"
+          },
+          {
+            "description": "Найти занятия в аудитории. Не используйте для поиска по преподавателю или ID.",
+            "inputSchema": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "room": {
+                  "description": "Номер аудитории как в расписании, например 204.",
+                  "title": "Room",
+                  "type": "string"
+                },
+                "response_format": {
+                  "default": "concise",
+                  "description": "concise — основные поля; detailed — полные карточки.",
+                  "enum": [
+                    "concise",
+                    "detailed"
+                  ],
+                  "title": "Response Format",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "room"
+              ],
+              "title": "schedule_roomArguments"
+            },
+            "name": "schedule_room"
+          }
+        ],
+        "ttlMs": 0
+      }
+    },
+    "duration": 30
+  },
+  {
+    "id": "2f6bed63-afe2-4b60-9d5a-b70758a6ac65",
+    "timestamp": "2026-10-09T16:13:32.168Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "prompts/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": 2
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 2
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "cacheScope": "private",
+        "prompts": [],
+        "resultType": "complete",
+        "ttlMs": 0
+      }
+    },
+    "duration": 41
+  },
+  {
+    "id": "e928c759-9feb-4923-a2b3-0840362f8edb",
+    "timestamp": "2026-10-09T16:13:32.168Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "resources/templates/list",
+      "params": {
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": 3
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 3
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "cacheScope": "private",
+        "resourceTemplates": [],
+        "resultType": "complete",
+        "ttlMs": 0
+      }
+    },
+    "duration": 53
+  },
+  {
+    "id": "6729e3a6-467c-4263-9192-9f3c3d11098c",
+    "timestamp": "2026-10-09T16:13:44.554Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_get",
+        "arguments": {
+          "response_format": "concise",
+          "lesson_id": "lesson_1"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "034fb3c3-1c59-44f8-8c0f-6e5b49c7692d"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 4
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "{\n  \"id\": \"lesson_1\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"12:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete"
+      }
+    },
+    "duration": 21
+  },
+  {
+    "id": "3c603d8e-6058-4e9e-9477-72314ca9d49d",
+    "timestamp": "2026-10-09T16:13:51.256Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_get",
+        "arguments": {
+          "response_format": "concise",
+          "lesson_id": "lesson_999"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "6cfb063f-d974-47a4-93b6-b30e9e9f8499"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 5
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "Занятие lesson_999 не найдено. Найдите существующий ID через schedule_search.",
+            "type": "text"
+          }
+        ],
+        "isError": true,
+        "resultType": "complete"
+      }
+    },
+    "duration": 24
+  },
+  {
+    "id": "16c9ff8a-e960-486c-81b1-92c024524849",
+    "timestamp": "2026-10-09T16:14:13.990Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_search",
+        "arguments": {
+          "response_format": "concise",
+          "date": "2026-10-10"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "0956d994-25a2-488a-a3cb-442a0f07bb77"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 6
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "{\n  \"id\": \"lesson_1\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"12:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          },
+          {
+            "text": "{\n  \"id\": \"lesson_2\",\n  \"subject\": \"Python\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"14:00\",\n  \"room\": \"305\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete"
+      }
+    },
+    "duration": 30
+  },
+  {
+    "id": "6110c29b-befb-46c8-b7dd-96fd326f8498",
+    "timestamp": "2026-10-09T16:14:17.587Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_search",
+        "arguments": {
+          "response_format": "detailed",
+          "date": "2026-10-10"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "43db3712-b136-4022-b5a3-9280d6115aab"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 7
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "{\n  \"id\": \"lesson_1\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"12:00\",\n  \"room\": \"204\",\n  \"teacher\": \"А. Иванова\",\n  \"type\": \"lecture\"\n}",
+            "type": "text"
+          },
+          {
+            "text": "{\n  \"id\": \"lesson_2\",\n  \"subject\": \"Python\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"14:00\",\n  \"room\": \"305\",\n  \"teacher\": \"И. Петров\",\n  \"type\": \"practice\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete"
+      }
+    },
+    "duration": 32
+  },
+  {
+    "id": "8c8328fb-2d8a-4fa3-99de-d0c3a96b68d1",
+    "timestamp": "2026-10-09T16:14:25.881Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_teacher",
+        "arguments": {
+          "response_format": "concise",
+          "teacher": "А. Иванова"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "c0a05a33-1c77-4007-8339-d77da32d926f"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 8
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "{\n  \"id\": \"lesson_1\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"12:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          },
+          {
+            "text": "{\n  \"id\": \"lesson_3\",\n  \"subject\": \"Машинное обучение\",\n  \"date\": \"2026-10-12\",\n  \"time\": \"10:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          },
+          {
+            "text": "{\n  \"id\": \"lesson_4\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-12\",\n  \"time\": \"12:00\",\n  \"room\": \"410\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete"
+      }
+    },
+    "duration": 28
+  },
+  {
+    "id": "6431838d-8410-4376-9ad6-3c1c0b319e2a",
+    "timestamp": "2026-10-09T16:14:35.899Z",
+    "direction": "request",
+    "origin": "client",
+    "message": {
+      "method": "tools/call",
+      "params": {
+        "name": "schedule_room",
+        "arguments": {
+          "response_format": "concise",
+          "room": "204"
+        },
+        "_meta": {
+          "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+          "io.modelcontextprotocol/clientInfo": {
+            "name": "mcp-inspector",
+            "version": "2.10.1"
+          },
+          "io.modelcontextprotocol/clientCapabilities": {
+            "sampling": {},
+            "elicitation": {
+              "form": {},
+              "url": {}
+            },
+            "roots": {
+              "listChanged": true
+            },
+            "tasks": {
+              "list": {},
+              "cancel": {},
+              "requests": {
+                "sampling": {
+                  "createMessage": {}
+                },
+                "elicitation": {
+                  "create": {}
+                }
+              }
+            },
+            "extensions": {
+              "io.modelcontextprotocol/tasks": {},
+              "io.modelcontextprotocol/ui": {
+                "mimeTypes": [
+                  "text/html;profile=mcp-app"
+                ],
+                "elicitation": {}
+              },
+              "io.modelcontextprotocol/skills": {}
+            }
+          },
+          "io.modelcontextprotocol/logLevel": "debug",
+          "progressToken": "304fa832-f348-4325-b142-9ab480b9fa38"
+        }
+      },
+      "jsonrpc": "2.0",
+      "id": 9
+    },
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 9,
+      "result": {
+        "_meta": {
+          "io.modelcontextprotocol/serverInfo": {
+            "name": "schedule",
+            "version": ""
+          }
+        },
+        "content": [
+          {
+            "text": "{\n  \"id\": \"lesson_1\",\n  \"subject\": \"Автономные агенты\",\n  \"date\": \"2026-10-10\",\n  \"time\": \"12:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          },
+          {
+            "text": "{\n  \"id\": \"lesson_3\",\n  \"subject\": \"Машинное обучение\",\n  \"date\": \"2026-10-12\",\n  \"time\": \"10:00\",\n  \"room\": \"204\"\n}",
+            "type": "text"
+          }
+        ],
+        "isError": false,
+        "resultType": "complete"
+      }
+    },
+    "duration": 27
+  }
+]
